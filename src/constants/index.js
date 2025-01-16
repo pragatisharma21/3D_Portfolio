@@ -21,6 +21,10 @@ import {
   threejs,
   sna,
   step,
+  dbImage,
+  nodejs,
+  mongodb,
+  weatherApp,
 } from "../assets";
 
 export const navLinks = [
@@ -40,15 +44,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Development",
     icon: web,
   },
-  
+
   {
-    title: "Figma designer",
+    title: "Backend Development",
     icon: backend,
   },
- 
+
+  {
+    title: "Mongo DB",
+    icon: creator,
+  },
+
+  {
+    title: "SQL",
+    icon: dbImage,
+  },
 ];
 
 const technologies = [
@@ -72,26 +85,24 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  
-  {
-    name: "Bootstrap",
-    icon: bootstrap,
-  },
+
+  // {
+  //   name: "Bootstrap",
+  //   icon: bootstrap,
+  // },
   {
     name: "Node JS",
-    icon: ionic,
+    icon: nodejs,
   },
   {
     name: "MongoDB",
-    icon: chakra,
+    icon: mongodb,
   },
- 
+
   {
     name: "git",
     icon: git,
   },
-  
- 
 ];
 
 const experiences = [
@@ -154,7 +165,7 @@ const projects = [
   {
     name: "Delphi Hotel",
     description:
-      "A luxurious hotel offering comfortable accommodations and excellent services." ,
+      "A premium hotel offering exceptional stays and world-class services for a luxurious experience.",
     tags: [
       {
         name: "JavaScript",
@@ -170,19 +181,20 @@ const projects = [
       },
     ],
     image: delphi,
-    source_code_link: "https://github.com/pragatisharma21/delphi-hotel-frontend",
+    source_code_link:
+      "https://github.com/pragatisharma21/delphi-hotel-frontend",
   },
   {
     name: "Finance App",
     description:
-      "A user-friendly finance application designed to help users manage their personal finances efficiently.",
+      "An intuitive app designed to streamline personal finance management with ease and efficiency.",
     tags: [
       {
         name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "css5",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
@@ -196,10 +208,10 @@ const projects = [
   {
     name: "Weather Mate",
     description:
-    " WeatherMate is a sleek and user-friendly weather forecasting app that provides real-time weather updates, including temperature, humidity, wind speed, and more. With an intuitive interface, it helps users plan their day with accurate weather information at their fingertips.",
+      "A modern weather app delivering real-time forecasts, including temperature, wind, and humidity.",
     tags: [
       {
-        name: "Javascript",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
@@ -210,11 +222,11 @@ const projects = [
         name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
-      
     ],
-    image: hidr8,
+    image: weatherApp,
     source_code_link: "https://github.com/pragatisharma21/Weather-App",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };

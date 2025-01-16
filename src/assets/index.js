@@ -1,4 +1,4 @@
-import logo from "./logo.jpg";
+import logo from "/PragatiLogo/png/logo-no-background.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -6,6 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import dbImage from "./dbImage.png"
+import weatherApp from "./weatherApp.png"
 
 import css from "./tech/css.png";
 import blender from "./tech/blender.png";
@@ -20,6 +22,8 @@ import angular from "./tech/angular.png";
 import bootstrap from "./tech/bootstrap.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nodejs from "./tech/nodejs.png";
+import mongodb from "./tech/mongodb.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -36,6 +40,7 @@ export {
   creator,
   mobile,
   web,
+  mongodb,
   github,
   menu,
   close,
@@ -44,7 +49,9 @@ export {
   figma,
   git,
   html,
+  nodejs,
   javascript,
+  weatherApp,
   chakra,
   ionic,
   reactjs,
@@ -59,4 +66,5 @@ export {
   delphi,
   finance,
   hidr8,
+  dbImage
 };
