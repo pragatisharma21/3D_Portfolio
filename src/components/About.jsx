@@ -49,11 +49,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a Aspiring Web Developer with experience in JavaScript and
-        typescript basic, and experience in frameworks like React, Angular, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+       I am an Aspiring Full Stack Web Developer with expertise in both frontend and backend development. I have experience working with JavaScript and TypeScript, along with frameworks like React, Node.js, and Express. 
+       On the frontend, I focus on creating intuitive, responsive, and user-friendly interfaces, while on the backend,
+        I build scalable and efficient APIs to support seamless application functionality.
+        I am a quick learner who thrives in collaborative environments and 
+        is passionate about solving real-world problems through technology.
+        My goal is to deliver efficient, scalable, and impactful digital solutions that bring ideas to life.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
